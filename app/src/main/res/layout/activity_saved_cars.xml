@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutSavedCars"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:id="@+id/textSavedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved Reports"
+        android:textColor="#111827"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textSavedDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card_bg"
+        android:padding="14dp"
+        android:text="Saved reports are stored temporarily while the app is running."
+        android:textColor="#4B5563"
+        android:textSize="15sp"
+        android:lineSpacingExtra="3dp" />
+
+    <ListView
+        android:id="@+id/listSavedCars"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:divider="#E5E7EB"
+        android:dividerHeight="10dp"
+        android:background="#F5F7FA" />
+
+    <Button
+        android:id="@+id/buttonClearSaved"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#374151"
+        android:text="CLEAR SAVED REPORTS"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBackFromSaved"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#9CA3AF"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

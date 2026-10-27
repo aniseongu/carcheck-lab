@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Personal_Project" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/skku_green_800</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/skku_green_100</item>
+        <item name="colorOnPrimaryContainer">@color/skku_green_950</item>
+
+        <item name="colorSecondary">@color/skku_gold_500</item>
+        <item name="colorOnSecondary">@color/skku_green_950</item>
+        <item name="colorSecondaryContainer">@color/skku_gold_100</item>
+        <item name="colorOnSecondaryContainer">@color/skku_gold_900</item>
+
+        <item name="android:statusBarColor">@color/skku_green_950</item>
+        <item name="android:navigationBarColor">@color/skku_green_950</item>
+        <item name="android:windowBackground">@color/skku_ivory</item>
+    </style>
+
+    <style name="Theme.Personal_Project" parent="Base.Theme.Personal_Project" />
+
+</resources>

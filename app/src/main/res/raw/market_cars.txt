@@ -1,0 +1,70 @@
+# year|make|model|category|estimatedPrice|priceBand|safetyScore|walletScore|hachagamScore|badWeatherScore|techScore|familyScore|annualFuelCost|memeTag|marketComment
+2021|TESLA|MODEL 3|EV|31000|Mid-high EV|78|82|86|72|96|55|650|Tech Bro Spaceship|Strong tech image, good wallet potential, but battery history matters.
+2022|TESLA|MODEL Y|EV|39000|Mid-high EV SUV|76|78|88|76|96|75|700|Tech Bro Family Pod|More practical than Model 3, but still has software cult energy.
+2020|TESLA|MODEL S|EV|52000|Luxury EV|75|70|94|70|98|65|800|Silent Luxury Missile|High Hachagam and high repair anxiety in one elegant package.
+2020|TOYOTA|CAMRY|Sedan|23000|Practical Sedan|88|90|45|72|45|70|1450|Responsible Adult Spec|Boring in the best possible way. The spreadsheet approves.
+2021|TOYOTA|COROLLA|Sedan|20000|Compact Sedan|86|92|40|68|40|60|1200|NPC Daily|It will not impress anyone, which is also why it might survive forever.
+2021|TOYOTA|PRIUS|Hybrid|24000|Hybrid|84|96|38|68|58|62|900|Wallet Monk|Not cool, but the gas station barely knows your name.
+2021|TOYOTA|RAV4|SUV|28500|Practical SUV|86|82|60|82|50|82|1550|Crossover Default Build|The default SUV answer, which is annoying because it is often reasonable.
+2021|TOYOTA|HIGHLANDER|SUV|35500|Family SUV|84|68|65|80|55|90|2100|Suburban Logic Tank|Large enough for family duty and mild parking stress.
+2021|TOYOTA|SIENNA|Minivan|36000|Family Hybrid Minivan|86|88|50|78|58|98|1300|Family Commander Hybrid|Peak family logic. Zero ego, maximum utility.
+2021|TOYOTA|4RUNNER|SUV|39000|Off-road SUV|70|42|82|86|44|72|2700|Old-School Mountain Brick|Reliable image, ancient fuel economy, very stubborn personality.
+2021|HONDA|CIVIC|Sedan|22000|Practical Sedan|85|88|48|70|44|65|1350|NPC Daily|Not flashy, but it survives comment-section violence.
+2021|HONDA|ACCORD|Sedan|25000|Midsize Sedan|86|82|52|72|50|72|1450|Responsible Adult Plus|A sensible choice with just enough dignity to avoid total boredom.
+2021|HONDA|CR-V|SUV|27500|Practical SUV|84|83|58|80|50|84|1500|Crossover Default Build|The car equivalent of making a responsible adult decision under protest.
+2021|HONDA|PILOT|SUV|33000|Family SUV|80|62|58|78|46|92|2250|Dad Logistics Unit|Family transport with less drama than most family group chats.
+2021|HONDA|ODYSSEY|Minivan|33500|Family Minivan|82|62|46|72|48|97|2100|Family Shuttle Boss|The back seat is basically a small civilization.
+2022|HYUNDAI|ELANTRA|Sedan|21000|Compact Sedan|78|86|50|66|55|62|1300|NPC Daily|A normal car. Sometimes that is exactly the point.
+2022|HYUNDAI|SONATA|Sedan|24000|Midsize Sedan|76|78|55|68|58|70|1550|Budget Executive Attempt|Looks sharper than its budget suggests.
+2022|HYUNDAI|TUCSON|SUV|27000|Practical SUV|76|76|64|76|60|80|1650|Crossover Default Build|Stylish enough to feel modern, practical enough to avoid shame.
+2022|HYUNDAI|SANTA FE|SUV|31000|Family SUV|76|70|66|78|60|84|1900|Family Crossover Plus|The SUV for people who want space without becoming a bus driver.
+2022|HYUNDAI|PALISADE|SUV|39000|Large SUV|78|55|76|78|65|94|2400|Suburban Command Center|Big family energy with large parking consequences.
+2022|HYUNDAI|KONA|SUV|23000|Small SUV|74|82|55|72|60|60|1400|Tiny Crossover Energy|Small enough for the city, tall enough to pretend it is adventurous.
+2022|HYUNDAI|IONIQ 5|EV|38000|EV Crossover|80|86|86|76|95|78|650|Retro Future Spaceship|The design says future. The charging plan should say adult.
+2022|KIA|K5|Sedan|25000|Midsize Sedan|74|76|60|66|62|66|1550|Budget Sport Sedan|Looks faster than most people need for a commute.
+2022|KIA|FORTE|Sedan|20000|Compact Sedan|72|86|46|64|50|58|1250|Budget NPC Daily|Cheap to run, easy to justify, hard to brag about.
+2022|KIA|SPORTAGE|SUV|27000|Practical SUV|76|76|62|74|55|78|1650|Crossover Default Build|Reasonable SUV energy, assuming the data does not start screaming.
+2022|KIA|SORENTO|SUV|32000|Family SUV|76|68|66|78|58|86|1950|Family Crossover Argument|Almost minivan utility without admitting minivan truth.
+2022|KIA|TELLURIDE|SUV|41000|Large SUV|80|55|82|80|62|95|2450|Suburban Main Character|High family practicality and strong neighborhood presence.
+2022|KIA|CARNIVAL|Minivan|34000|Family Minivan|76|65|52|70|50|96|2150|Family Shuttle Boss|Not glamorous, but it carries humans, bags, strollers, and regret.
+2021|KIA|NIRO|Hybrid|24500|Hybrid Crossover|78|92|48|70|58|70|950|Wallet Survivor Crossover|A car for people who enjoy passing gas stations emotionally untouched.
+2022|KIA|EV6|EV|39000|EV Crossover|78|86|84|74|95|72|650|Electric Drama Wedge|Very futuristic. Make sure the charger situation is less dramatic.
+2022|GENESIS|G70|Sedan|35000|Sport Luxury Sedan|76|55|84|68|78|55|2200|Entry Luxury Flex|Strong Hachagam, but your wallet may start asking philosophical questions.
+2022|GENESIS|G80|Sedan|43000|Luxury Sedan|78|48|90|70|78|72|2400|Executive Sedan Aura|Looks important even if you are just going to Costco.
+2022|GENESIS|GV70|SUV|39000|Premium SUV|78|58|92|76|76|70|2100|Executive Hachagam|Very strong parking-lot energy. Your wallet should stretch first.
+2022|GENESIS|GV80|SUV|47000|Luxury SUV|77|50|95|78|76|82|2350|Luxury Depreciation Energy|High Hachagam, high comfort, high chance your bank account sighs.
+2020|FORD|F-150|Truck|36000|Pickup Truck|72|45|88|74|52|62|2600|Big Truck Main Character|Dominates parking lots and fuel receipts with equal confidence.
+2021|FORD|RANGER|Truck|30000|Midsize Truck|70|54|72|74|45|55|2300|Small Truck Energy|Useful if you actually use the bed, theatrical if you do not.
+2021|FORD|ESCAPE|SUV|24000|Compact SUV|72|74|54|72|50|70|1600|Rental Fleet Survivor|Not exciting, but sometimes excitement is how repair bills start.
+2021|FORD|EXPLORER|SUV|34000|Family SUV|70|54|70|78|55|88|2400|Police-Chase Silhouette|Family SUV with accidental law enforcement cosplay.
+2022|FORD|MUSTANG MACH-E|EV|39000|EV SUV|76|84|90|72|94|70|700|Electric Mustang Argument|Great tech image, plus endless comment-section debates about the Mustang name.
+2020|CHEVROLET|BOLT|EV|19000|Value EV|70|88|58|65|78|54|600|Wallet Survivor EV|Cheap to run, but battery recall history is not optional reading.
+2021|CHEVROLET|MALIBU|Sedan|19000|Budget Sedan|68|78|42|62|40|62|1500|Discount Sedan Energy|Affordable, but not exactly the main character.
+2021|CHEVROLET|EQUINOX|SUV|22000|Compact SUV|70|72|52|70|46|74|1700|Budget Crossover Energy|A practical candidate if the inspection records behave.
+2021|CHEVROLET|TRAVERSE|SUV|31000|Large SUV|70|50|58|74|44|90|2550|Family Hauler Beast|Big cabin, big appetite, big parking footprint.
+2021|CHEVROLET|SILVERADO|Truck|38000|Pickup Truck|68|40|84|74|45|62|2750|Truck Wallet Incident|Strong truck presence with fuel bills that believe in violence.
+2021|JEEP|WRANGLER|SUV|36000|Off-road SUV|62|38|88|84|48|50|2800|Off-Road Personality Disorder|Great image, expensive compromises. Pavement-only drivers should be questioned.
+2021|JEEP|GRAND CHEROKEE|SUV|34000|SUV|66|46|78|78|52|78|2500|Premium Trail Costume|Comfortable and capable, but not always cheap to keep happy.
+2021|BMW|X3|SUV|39000|Premium SUV|72|45|90|74|82|70|2400|Premium Repair Suspense|Great Hachagam. Maintenance bills may arrive wearing a suit.
+2021|BMW|X5|SUV|52000|Luxury SUV|74|35|95|78|86|82|3000|Luxury Maintenance Boss Fight|High status, high comfort, high chance of financial side quests.
+2021|BMW|330I|Sedan|34000|Premium Sedan|72|50|86|66|82|52|2200|Used German Temptation|Fun choice. Ask whether your wallet consented.
+2021|BMW|530I|Sedan|41000|Luxury Sedan|74|42|90|68|82|70|2450|Executive Used-German Trap|Very nice until the service advisor smiles.
+2021|MERCEDES-BENZ|C300|Sedan|35000|Premium Sedan|74|48|88|66|80|55|2250|Badge-Based Confidence|The badge works. The maintenance estimate also works, sadly.
+2021|MERCEDES-BENZ|E350|Sedan|44000|Luxury Sedan|78|42|92|70|82|72|2450|Executive Comfort Tax|Comfortable enough to justify bad ideas if you are not careful.
+2021|MERCEDES-BENZ|GLC|SUV|41000|Premium SUV|74|44|91|74|80|72|2450|Luxury Crossover Tax|Looks premium because it is. Costs premium because it is.
+2021|MERCEDES-BENZ|GLE|SUV|56000|Luxury SUV|76|34|96|78|84|86|3100|Luxury School-Run Tank|Very comfortable, very expensive, very good at looking unbothered.
+2021|AUDI|A4|Sedan|33000|Premium Sedan|72|50|82|66|80|55|2150|Quiet German Flex|Less loud than rivals, not necessarily cheaper to maintain.
+2021|AUDI|Q5|SUV|39000|Premium SUV|74|46|86|74|80|76|2400|Subtle Luxury Crossover|Understated until the repair bill becomes expressive.
+2021|LEXUS|ES 350|Sedan|34000|Comfort Sedan|86|68|78|70|55|75|2000|Quiet Luxury Adult|Luxury without begging for attention. Strange concept, apparently.
+2021|LEXUS|IS 300|Sedan|33000|Sport Sedan|82|60|82|66|58|55|2200|Reliable Sport Costume|Sporty enough for ego, Lexus enough for sanity.
+2021|LEXUS|RX 350|SUV|40000|Premium SUV|84|58|84|78|58|86|2300|Comfortable Reliability Blob|Not exciting, but shockingly good at being owned.
+2021|LEXUS|NX|SUV|37000|Premium SUV|84|64|82|76|58|76|2050|Reliable Hachagam Lite|Premium-ish, reliable-ish, and thankfully less dramatic than German roulette.
+2021|MAZDA|MAZDA3|Sedan|23000|Compact Sedan|78|82|60|66|55|58|1350|Budget Tasteful Spec|Looks more expensive than it is. Rare civilized behavior.
+2021|MAZDA|CX-5|SUV|27000|Compact SUV|80|76|68|76|56|78|1650|Tasteful Crossover|A practical car pretending to have design opinions.
+2021|SUBARU|OUTBACK|SUV|29000|Wagon SUV|82|74|56|90|50|86|1700|Weather Anxiety Cure|For people who read weather forecasts like legal documents.
+2021|SUBARU|FORESTER|SUV|27000|Compact SUV|82|76|54|88|48|82|1600|Rain Coward Approved|Bad weather confidence without luxury tax.
+2021|NISSAN|ALTIMA|Sedan|21000|Midsize Sedan|68|78|45|64|45|64|1450|Discount Commute Tool|Cheap enough to consider, but inspect carefully.
+2021|NISSAN|ROGUE|SUV|24000|Compact SUV|70|76|52|72|48|78|1550|Budget Crossover Default|Reasonable if the history is clean. Suspicious if it is too cheap.
+2021|VOLVO|XC60|SUV|40000|Premium SUV|86|44|84|82|72|80|2500|Safety Nerd Luxury|A premium SUV that yells safety in a Swedish accent.
+2021|VOLVO|S60|Sedan|34000|Premium Sedan|84|50|78|72|70|62|2200|Safety Nerd Sedan|Respectable, safe, and not trying too hard.
+2021|PORSCHE|MACAN|SUV|56000|Luxury Sport SUV|76|25|98|72|82|60|3300|Hachagam Final Boss|Maximum parking-lot aura. Your wallet may need counseling.
