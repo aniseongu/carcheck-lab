@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SKKU deep green palette -->
+    <color name="skku_green_950">#042F24</color>
+    <color name="skku_green_900">#064734</color>
+    <color name="skku_green_800">#0B5A42</color>
+    <color name="skku_green_700">#0F6B4F</color>
+    <color name="skku_green_600">#167B5B</color>
+    <color name="skku_green_500">#238B68</color>
+    <color name="skku_green_300">#8FC6AA</color>
+    <color name="skku_green_200">#B9DCCB</color>
+    <color name="skku_green_100">#E4F2EA</color>
+    <color name="skku_green_050">#F2F8F4</color>
+
+    <!-- SKKU gold palette -->
+    <color name="skku_gold_900">#5F4310</color>
+    <color name="skku_gold_800">#7C5B16</color>
+    <color name="skku_gold_700">#9A741F</color>
+    <color name="skku_gold_600">#B78A29</color>
+    <color name="skku_gold_500">#C8A24A</color>
+    <color name="skku_gold_300">#E6D18A</color>
+    <color name="skku_gold_100">#FFF4D6</color>
+
+    <!-- Neutral colors -->
+    <color name="skku_ivory">#FBF7ED</color>
+    <color name="skku_card">#FFFFFF</color>
+    <color name="skku_line">#D9E7DE</color>
+    <color name="skku_line_gold">#E8D9A7</color>
+
+    <color name="text_primary">#123127</color>
+    <color name="text_secondary">#557267</color>
+    <color name="text_muted">#7B9188</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#111111</color>
+
+    <color name="danger">#C0392B</color>
+    <color name="warning">#B97816</color>
+    <color name="success">#167B5B</color>
+
+    <!-- Legacy green aliases -->
+    <color name="green_950">#042F24</color>
+    <color name="green_900">#064734</color>
+    <color name="green_800">#0B5A42</color>
+    <color name="green_700">#0F6B4F</color>
+    <color name="green_600">#167B5B</color>
+    <color name="green_500">#238B68</color>
+    <color name="green_300">#8FC6AA</color>
+    <color name="green_200">#B9DCCB</color>
+    <color name="green_100">#E4F2EA</color>
+    <color name="green_050">#F2F8F4</color>
+
+    <!-- Legacy gold aliases -->
+    <color name="gold_900">#5F4310</color>
+    <color name="gold_800">#7C5B16</color>
+    <color name="gold_700">#9A741F</color>
+    <color name="gold_600">#B78A29</color>
+    <color name="gold_500">#C8A24A</color>
+    <color name="gold_300">#E6D18A</color>
+    <color name="gold_100">#FFF4D6</color>
+
+    <!-- Legacy neutral aliases -->
+    <color name="line_soft">#D9E7DE</color>
+    <color name="line_gold">#E8D9A7</color>
+    <color name="ivory">#FBF7ED</color>
+    <color name="card_white">#FFFFFF</color>
+</resources>
