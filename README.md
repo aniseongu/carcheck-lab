@@ -29,7 +29,7 @@
 | 차량 찾기 | 데모 차량, 브랜드·모델 검색, 17자리 VIN 디코딩 중 어디서 시작해도 같은 보고서로 이어집니다. |
 | 구매자 프로필 | 도시와 구매 성향(Safety Nerd, Wallet Survivor 등)에 따라 같은 차도 다르게 해석합니다. 프로필은 서버에 저장됩니다. |
 | 빈 데이터 처리 | 공공 API가 `Not Rated`나 빈 값을 주면 0점으로 치지 않고 기준 데이터로 보충한 뒤, 기준값을 썼다는 사실을 화면에 밝힙니다. |
-| 차종 구분 | 전기차(EV, BEV)와 하이브리드(HEV, PHEV)를 따로 구분해 아이콘, 날씨 조언, EV 후보 필터에 반영합니다. |
+| 차종 구분 | 처음에는 차종 이름에 'EV'가 들어가는지만 봐서 HEV·PHEV도 순수 전기차로 분류됐습니다. 이를 발견해 순수 전기차(EV, BEV)와 하이브리드(HEV, PHEV)를 구분하는 `VehicleCategoryHelper`를 만들고 날씨 조언에 적용했습니다. |
 | Weather Buying Lens | 내 도시의 현재 날씨를 시승 때 확인할 점 하나로 바꿔 줍니다(비, 더위, 냉간 시동, EV 주행거리 등). |
 | 리뷰와 평점 | 계정마다 차량당 리뷰 하나만 쓸 수 있어 평균이 한 사람에게 쏠리지 않습니다. 수정과 삭제가 됩니다. |
 | 딜러 코치 | 리콜 조치, 정비 이력, 가격, 배터리 상태처럼 판매자에게 물어볼 질문을 보여 줍니다. |
@@ -37,6 +37,13 @@
 | Budget Black Hole | "그 돈이면 이거 사지"로 예산이 계속 올라가는 심리를 풍자한 기능입니다. |
 
 ## 기술 구성
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-34A853?logo=android&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?logo=awslambda&logoColor=white)
+![Amazon DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?logo=amazondynamodb&logoColor=white)
+![Amazon API Gateway](https://img.shields.io/badge/Amazon%20API%20Gateway-FF4F8B?logo=amazonapigateway&logoColor=white)
 
 | 구분 | 사용 기술 |
 | --- | --- |
@@ -75,4 +82,5 @@ git clone https://github.com/aniseongu/carcheck-lab.git
 
 - 로그인 서버는 시연용입니다. 비밀번호를 해시하지 않고 저장하므로 실제 서비스에 그대로 쓰면 안 됩니다.
 - 리뷰와 저장한 보고서는 기기 안에만 남습니다.
+- 차량 아이콘, 차량 검색, 딜러 코치, 예산 대안의 EV 후보 필터는 아직 차종 이름의 'EV' 포함 여부로 판단합니다. 같은 분류 도우미로 옮기는 작업이 남아 있습니다.
 - 공식 제조사 로고는 쓰지 않고 차종별 아이콘을 씁니다. 글꼴은 Plus Jakarta Sans와 Inter(SIL Open Font License)입니다.
