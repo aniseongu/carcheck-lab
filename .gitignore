@@ -35,3 +35,4 @@ CLAUDE.local.md
 *.keystore
 dist/
 __pycache__/
+.playwright-mcp/
