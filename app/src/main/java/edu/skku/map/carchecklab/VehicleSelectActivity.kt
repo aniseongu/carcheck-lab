@@ -126,8 +126,11 @@ class VehicleSelectActivity : AppCompatActivity() {
         val city = UserProfileManager.getCity(this)
         val priority = UserProfileManager.getPriority(this)
 
+        // Keep the if/else on its own: inside the + chain it swallowed the Region and Priority lines for guests.
+        val displayUser = if (currentUserId.isEmpty()) "Guest" else currentUserId
+
         textVehicleUserInfo.text =
-            "User: " + if (currentUserId.isEmpty()) "Guest" else currentUserId +
+            "User: " + displayUser +
                     "\nRegion: " + city +
                     "\nPriority: " + priority
     }

@@ -136,8 +136,11 @@ class RiskDashboardActivity : AppCompatActivity() {
 
         textSelectedVehicle.text = currentVehicleName + " / " + currentCategory
 
+        // Keep the if/else on its own: inside the + chain it swallowed the Profile and Region text for guests.
+        val displayUser = if (currentUserId.isEmpty()) "Guest" else currentUserId
+
         textProfileInfo.text =
-            "User: " + if (currentUserId.isEmpty()) "Guest" else currentUserId +
+            "User: " + displayUser +
                     "\nProfile: " + currentPriority +
                     " / Region: " + city
 
