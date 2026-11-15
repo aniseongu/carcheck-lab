@@ -131,6 +131,19 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/buttonDemo"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_skk_outline"
+                android:backgroundTint="@null"
+                android:text="Try demo without an account"
+                android:textAllCaps="false"
+                android:textColor="@color/skku_green_950"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
             <ProgressBar
                 android:id="@+id/progressLogin"
                 style="?android:attr/progressBarStyle"

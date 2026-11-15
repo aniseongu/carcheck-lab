@@ -158,6 +158,17 @@ class ProfileSetupActivity : AppCompatActivity() {
             return
         }
 
+        if (ServerSessionManager.isDemo(this)) {
+            UserProfileManager.saveProfile(this, city, priority)
+            Toast.makeText(
+                this,
+                "Saved on this device (demo mode).",
+                Toast.LENGTH_SHORT
+            ).show()
+            openVehicleSelect()
+            return
+        }
+
         setLoading(true)
 
         thread {

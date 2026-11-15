@@ -12,6 +12,9 @@ class ServerSessionManager {
         private const val KEY_CITY: String = "current_city"
         private const val KEY_PRIORITY: String = "current_priority"
         private const val KEY_HAS_PROFILE: String = "has_profile"
+        private const val KEY_IS_DEMO: String = "is_demo"
+
+        const val DEMO_USER_ID: String = "demo"
 
         private fun getPrefs(context: Context): SharedPreferences {
             return context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
@@ -30,7 +33,23 @@ class ServerSessionManager {
             editor.putString(KEY_CITY, city)
             editor.putString(KEY_PRIORITY, priority)
             editor.putBoolean(KEY_HAS_PROFILE, hasProfile)
+            editor.putBoolean(KEY_IS_DEMO, false)
             editor.apply()
+        }
+
+        // Demo mode keeps everything on the device so the app can be tried without the AWS server.
+        fun startDemoSession(context: Context) {
+            val prefs: SharedPreferences = getPrefs(context)
+            val editor: SharedPreferences.Editor = prefs.edit()
+            editor.putBoolean(KEY_IS_LOGGED_IN, true)
+            editor.putBoolean(KEY_IS_DEMO, true)
+            editor.putString(KEY_USER_ID, DEMO_USER_ID)
+            editor.putBoolean(KEY_HAS_PROFILE, true)
+            editor.apply()
+        }
+
+        fun isDemo(context: Context): Boolean {
+            return getPrefs(context).getBoolean(KEY_IS_DEMO, false)
         }
 
         fun saveProfile(

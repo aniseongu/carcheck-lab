@@ -19,6 +19,10 @@ class ServerAuthClient {
     companion object {
         const val AUTH_API_URL: String =
             "https://YOUR_API_ID.execute-api.YOUR_REGION.amazonaws.com/auth"
+
+        fun isConfigured(): Boolean {
+            return !AUTH_API_URL.contains("YOUR_API_ID")
+        }
     }
 
     private val client: OkHttpClient = OkHttpClient()
@@ -60,6 +64,17 @@ class ServerAuthClient {
     }
 
     private fun requestServer(body: JSONObject): ServerAuthResult {
+        if (!isConfigured()) {
+            return ServerAuthResult(
+                false,
+                "This build has no account server. Tap \"Try demo\" to explore without an account.",
+                "",
+                "",
+                "",
+                false
+            )
+        }
+
         try {
             val mediaType = "application/json; charset=utf-8".toMediaType()
             val requestBody = body.toString().toRequestBody(mediaType)

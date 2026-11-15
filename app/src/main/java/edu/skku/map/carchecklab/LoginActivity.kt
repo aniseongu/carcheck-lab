@@ -17,6 +17,7 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var editPassword: EditText
     private lateinit var buttonLogin: Button
     private lateinit var buttonRegister: Button
+    private lateinit var buttonDemo: Button
     private lateinit var progressLogin: ProgressBar
     private lateinit var textLoginStatus: TextView
 
@@ -34,11 +35,13 @@ class LoginActivity : AppCompatActivity() {
         editPassword = findViewById(R.id.editPassword)
         buttonLogin = findViewById(R.id.buttonLogin)
         buttonRegister = findViewById(R.id.buttonRegister)
+        buttonDemo = findViewById(R.id.buttonDemo)
         progressLogin = findViewById(R.id.progressLogin)
         textLoginStatus = findViewById(R.id.textLoginStatus)
 
         buttonLogin.backgroundTintList = null
         buttonRegister.backgroundTintList = null
+        buttonDemo.backgroundTintList = null
 
         clearLoginFields()
         hideStatusMessage()
@@ -49,6 +52,11 @@ class LoginActivity : AppCompatActivity() {
 
         buttonRegister.setOnClickListener {
             submitAuth(true)
+        }
+
+        buttonDemo.setOnClickListener {
+            ServerSessionManager.startDemoSession(this)
+            openVehicleSelect()
         }
     }
 
@@ -152,5 +160,6 @@ class LoginActivity : AppCompatActivity() {
 
         buttonLogin.isEnabled = !isLoading
         buttonRegister.isEnabled = !isLoading
+        buttonDemo.isEnabled = !isLoading
     }
 }
