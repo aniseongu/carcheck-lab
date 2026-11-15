@@ -15,3 +15,23 @@
 local.properties
 
 .kotlin/
+
+# Local work documents and agent instructions (never commit)
+/AGENTS.md
+/CLAUDE.md
+/GOAL.md
+/HANDOFF.md
+/.agents/
+/.claude/
+/docs/plans/
+/docs/daily-log/
+/docs/BLOCKERS.md
+CLAUDE.local.md
+
+# Credentials and generated files
+.env
+.env.*
+*.jks
+*.keystore
+dist/
+__pycache__/
