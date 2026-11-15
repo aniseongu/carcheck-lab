@@ -9,7 +9,7 @@
 ![server](https://img.shields.io/badge/AWS-Lambda%20%7C%20DynamoDB-555555)
 [![apk](https://github.com/aniseongu/carcheck-lab/actions/workflows/android-apk.yml/badge.svg)](https://github.com/aniseongu/carcheck-lab/actions/workflows/android-apk.yml)
 
-**[APK 내려받기](https://github.com/aniseongu/carcheck-lab/releases/latest/download/CarCheckLab.apk)**
+**[브라우저에서 바로 실행](https://appetize.io/app/7kwjtqs37zesmlnr4zrph553la)** · **[APK 내려받기](https://github.com/aniseongu/carcheck-lab/releases/latest/download/CarCheckLab.apk)**
 
 </div>
 
@@ -26,11 +26,17 @@
 
 ## 바로 실행해 보기
 
+### 브라우저에서
+
+[Appetize](https://appetize.io/app/7kwjtqs37zesmlnr4zrph553la)에서 **Tap to Start**를 누르면 Android 에뮬레이터가 브라우저 안에서 열립니다. 설치할 것이 없습니다. 무료 플랜이라 한 번에 3분까지, 한 달에 모두 30분까지 쓸 수 있고 시간이 다 떨어지면 다음 달에 다시 열립니다.
+
+### Android 휴대폰에서
+
 1. Android 휴대폰에서 [CarCheckLab.apk](https://github.com/aniseongu/carcheck-lab/releases/latest/download/CarCheckLab.apk)를 받습니다.
 2. 파일을 열고 설치합니다. "출처를 알 수 없는 앱" 경고가 나오면 브라우저나 파일 앱에 설치 권한을 줍니다.
 3. 로그인 화면에서 **Try demo (no account)**를 누릅니다. 계정 서버 없이 프로필과 리뷰를 기기 안에만 저장하는 데모 모드로 들어갑니다.
 
-리콜, 결함 신고, 안전 등급, VIN 디코딩은 NHTSA 공개 API를 그대로 불러오므로 데모에서도 동작합니다. 날씨 카드는 공개 APK에 API 키를 넣지 않아 기본 안내로 나옵니다. APK는 GitHub Actions가 `v*` 태그마다 빌드해 [Releases](https://github.com/aniseongu/carcheck-lab/releases)에 올리고, 디버그 서명이라 새 버전을 설치할 때는 이전 버전을 먼저 지워야 합니다.
+리콜, 결함 신고, 안전 등급, VIN 디코딩은 NHTSA 공개 API를 그대로 불러오므로 데모에서도 동작합니다. 날씨 카드는 공개 APK에 API 키를 넣지 않아 기본 안내로 나옵니다. APK는 GitHub Actions가 `v*` 태그마다 빌드하고 에뮬레이터에서 데모 흐름을 눌러 본 뒤 [Releases](https://github.com/aniseongu/carcheck-lab/releases)와 Appetize에 올립니다. 디버그 서명이라 새 버전을 설치할 때는 이전 버전을 먼저 지워야 합니다.
 
 ## 주요 기능
 
