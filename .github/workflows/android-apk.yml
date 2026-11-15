@@ -82,6 +82,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      APPETIZE_API_TOKEN: ${{ secrets.APPETIZE_API_TOKEN }}
+      APPETIZE_PUBLIC_KEY: ${{ vars.APPETIZE_PUBLIC_KEY }}
     steps:
       - uses: actions/download-artifact@v8
         with:
@@ -96,3 +99,20 @@ jobs:
           gh release create "$GITHUB_REF_NAME" dist/CarCheckLab.apk \
             --title "CarCheck Lab $GITHUB_REF_NAME" \
             --notes "Android 기기에서 CarCheckLab.apk를 받아 설치합니다. 로그인 화면의 'Try demo (no account)'를 누르면 서버 없이 둘러볼 수 있습니다. 디버그 서명 APK라 이전 버전이 설치돼 있으면 먼저 지운 뒤 설치합니다."
+
+      # Browser demo on Appetize (REST API, no official CLI). Skipped when the token secret is not set.
+      # Without APPETIZE_PUBLIC_KEY it creates the app once; set the printed publicKey as a repo variable
+      # so later tags update the same share link.
+      - name: Update Appetize browser demo
+        if: ${{ env.APPETIZE_API_TOKEN != '' }}
+        env:
+          GH_REPO: ${{ github.repository }}
+        run: |
+          apk_url="https://github.com/$GH_REPO/releases/download/$GITHUB_REF_NAME/CarCheckLab.apk"
+          body=$(jq -n --arg url "$apk_url" --arg note "CarCheck Lab $GITHUB_REF_NAME" \
+            '{platform: "android", fileType: "apk", url: $url, note: $note}')
+          endpoint="https://api.appetize.io/v1/apps${APPETIZE_PUBLIC_KEY:+/$APPETIZE_PUBLIC_KEY}"
+          curl -sSf -X POST "$endpoint" \
+            -H "X-API-KEY: $APPETIZE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$body" | jq '{publicKey, versionCode, updated}'
