@@ -28,7 +28,7 @@
 
 1. Android 휴대폰에서 [CarCheckLab.apk](https://github.com/aniseongu/carcheck-lab/releases/latest/download/CarCheckLab.apk)를 받습니다.
 2. 파일을 열고 설치합니다. "출처를 알 수 없는 앱" 경고가 나오면 브라우저나 파일 앱에 설치 권한을 줍니다.
-3. 로그인 화면에서 **Try demo without an account**를 누릅니다. 계정 서버 없이 프로필과 리뷰를 기기 안에만 저장하는 데모 모드로 들어갑니다.
+3. 로그인 화면에서 **Try demo (no account)**를 누릅니다. 계정 서버 없이 프로필과 리뷰를 기기 안에만 저장하는 데모 모드로 들어갑니다.
 
 리콜, 결함 신고, 안전 등급, VIN 디코딩은 NHTSA 공개 API를 그대로 불러오므로 데모에서도 동작합니다. 날씨 카드는 공개 APK에 API 키를 넣지 않아 기본 안내로 나옵니다. APK는 GitHub Actions가 `v*` 태그마다 빌드해 [Releases](https://github.com/aniseongu/carcheck-lab/releases)에 올리고, 디버그 서명이라 새 버전을 설치할 때는 이전 버전을 먼저 지워야 합니다.
 
@@ -84,7 +84,7 @@ git clone https://github.com/aniseongu/carcheck-lab.git
 
 ## 사용법
 
-1. 계정을 만들고 로그인합니다. 서버 없이 둘러보려면 **Try demo without an account**를 누릅니다.
+1. 계정을 만들고 로그인합니다. 서버 없이 둘러보려면 **Try demo (no account)**를 누릅니다.
 2. 도시와 구매 성향을 고릅니다. 나중에 차량 목록 화면에서 바꿀 수 있습니다.
 3. 데모 차량을 고르거나, 브랜드·모델로 검색하거나, VIN을 입력합니다.
 4. Risk Report에서 점수와 판단을 보고, 결함 상세, 리뷰, 딜러 코치, 예산 대안으로 넘어갑니다.

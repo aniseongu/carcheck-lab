@@ -1,7 +1,7 @@
 """Demo-mode smoke test for CI.
 
 Installs the APK on a running emulator, taps through
-Login -> "Try demo without an account" -> vehicle list -> first "Report",
+Login -> "Try demo (no account)" -> vehicle list -> first "Report",
 checks the expected activity is on top at each step, and saves screenshots.
 
 Usage: python3 demo_smoke.py <apk> <out_dir>
@@ -99,7 +99,7 @@ def main():
     time.sleep(2)
     screenshot(out, "01-login")
 
-    tap_text("Try demo without an account")
+    tap_text("Try demo (no account)")
     wait_for_activity("VehicleSelectActivity")
     time.sleep(2)
     screenshot(out, "02-vehicle-select")

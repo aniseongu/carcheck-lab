@@ -138,7 +138,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button_skk_outline"
                 android:backgroundTint="@null"
-                android:text="Try demo without an account"
+                android:text="Try demo (no account)"
                 android:textAllCaps="false"
                 android:textColor="@color/skku_green_950"
                 android:textSize="15sp"
